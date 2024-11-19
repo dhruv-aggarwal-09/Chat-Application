@@ -1,20 +1,15 @@
 
 # WebSocket Chat App
 
-This is a real-time chat application built using WebSocket, HTML, CSS, and JavaScript. The app allows users to connect to a WebSocket server, log in with a username, and engage in real-time messaging with other users. It provides an intuitive interface for sending and receiving messages without the need for page refreshes.
+This real-time chat application is built using WebSocket, HTML, CSS, and JavaScript. The app allows users to connect to a WebSocket server, log in with a username, and engage in real-time messaging with other users. It provides an intuitive interface for sending and receiving messages without page refreshes.
 
-
-## Project Overview
-
-This chat application leverages the WebSocket protocol to establish a persistent connection between the client and the server, enabling real-time communication. It includes basic login functionality, chat message display, and the ability for multiple users to interact in the same chat session.
-The frontend is built with HTML, CSS, and JavaScript, while the backend WebSocket server is powered by Node.js.
 
 ## Features
 
 - **Real-time Messaging**: Send and receive messages instantly between users.
 - **Username Login**: Users can enter a username to start chatting.
 - **User Authentication**: Basic username input field to identify the user.
-- **Broadcast Messages**: All connected clients receive messages sent by any user in real-time.
+- **Broadcast Messages**: All connected clients receive messages from any user in real time.
 - **Logout**: Users can log out, which returns them to the login screen.
 - **Responsive UI**: The app’s layout adjusts to fit different screen sizes.
 
